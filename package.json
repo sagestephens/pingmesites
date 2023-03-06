@@ -1,0 +1,21 @@
+{
+  "name": "ping-site",
+  "version": "1.0.0",
+  "description": "To ping sites and send notification email.",
+  "main": "app.js",
+  "dependencies": {
+    "node-cron": "^3.0.2",
+    "request": "^2.88.2",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagestephens/pingmesites"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run app ping"
+  },
+  "author": "Sage (Sageart IT Studio)",
+  "license": "ISC"
+}
